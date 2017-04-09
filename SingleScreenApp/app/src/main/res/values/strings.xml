@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SingleScreenApp</string>
+    <string name="name">OMG Cupcakes</string>
+    <string name="tag"> Bringing authentic cupcakes to London since 1991. </string>
+    <string name="info"> Visit us or need to get in touch? Whatever the nature of your enquiry, we have teams on hand ready to hear from you. </string>
+    <string name="phone">020 8969 5777 - (Mon-Fri 8am-5pm)</string>
+    <string name="location">666 Baker Street, London, W1A AAA</string>
+</resources>
