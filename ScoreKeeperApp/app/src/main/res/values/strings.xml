@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ScoreKeeperApp</string>
+    <string name="team_a_string">Team a</string>
+    <string name="reset_string">Reset</string>
+    <string name="_6_int_a">+6</string>
+    <string name="_3_int_a">+3</string>
+    <string name="_0_int_a">0</string>
+    <string name="team_b_string">Team b</string>
+    <string name="_0_int_b">0</string>
+    <string name="_3_int_b">+3</string>
+    <string name="_6_int_b">+6</string>
 </resources>

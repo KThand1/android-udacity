@@ -11,10 +11,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public int scoreA = 0;
-    public int scoreB = 0;
-    public int point3 = 3;
-    public int point6 = 6;
+    private int scoreA = 0;
+    private int scoreB = 0;
+    private int point3 = 3;
+    private int point6 = 6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,17 +55,17 @@ public class MainActivity extends AppCompatActivity {
      * Displays the score in the correct view.
      */
     private void displayScore(String team, int score) {
-        if (team == "A") {
+        if (team.equals("A")) {
             TextView quantityTextView = (TextView) findViewById(R.id.team_a_score_view);
             quantityTextView.setText("" + score);
         } else {
-            if (team == "B") {
+            if (team.equals("B")) {
                 TextView quantityTextView = (TextView) findViewById(R.id.team_b_score_view);
                 quantityTextView.setText("" + score);
             }
         }
     }
 
-}
 
+}
 

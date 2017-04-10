@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Team a"
+                android:text="@string/team_a_string"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold" />
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:text="0"
+                android:text="@string/_0_int_a"
                 android:textColor="@android:color/black"
                 android:textSize="56sp" />
 
@@ -45,7 +45,7 @@
                 android:layout_margin="16dp"
                 android:background="@color/colorPrimary"
                 android:onClick="score"
-                android:text="+3" />
+                android:text="@string/_3_int_a" />
 
             <Button
                 android:id="@+id/teamA6"
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:onClick="score"
-                android:text="+6" />
+                android:text="@string/_6_int_a" />
 
         </LinearLayout>
 
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Team b"
+                android:text="@string/team_b_string"
                 android:textAllCaps="true"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold" />
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:text="0"
+                android:text="@string/_0_int_b"
                 android:textColor="@android:color/black"
                 android:textSize="56sp" />
 
@@ -98,7 +98,7 @@
                 android:layout_margin="16dp"
                 android:background="@color/colorPrimary"
                 android:onClick="score"
-                android:text="+3" />
+                android:text="@string/_3_int_b" />
 
             <Button
                 android:id="@+id/teamB6"
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:onClick="score"
-                android:text="+6" />
+                android:text="@string/_6_int_b" />
 
         </LinearLayout>
     </LinearLayout>
@@ -120,7 +120,7 @@
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
         android:onClick="reset"
-        android:text="Reset" />
+        android:text="@string/reset_string" />
 
 </RelativeLayout>
 
